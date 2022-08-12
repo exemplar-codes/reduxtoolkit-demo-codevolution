@@ -1,6 +1,3 @@
-const store = require('./store/store');
-const { cakeActions } = require('./store/slices/cakeSlice');
+const store = require("./asyncStore/store");
 
-store.subscribe(() => console.log(store.getState()))
-
-store.dispatch(cakeActions.orderCake())
+store.subscribe(() => console.log(store.getState()));
