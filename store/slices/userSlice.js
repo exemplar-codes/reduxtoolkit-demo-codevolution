@@ -7,23 +7,6 @@ const initialState = {
   error: "",
 };
 
-// const fetchUsersThunk = createAsyncThunk("async/fetchUsers", () => {
-//   return async function (dispatch, getState) {
-//     try {
-//       dispatch(fetchUsersRequest());
-
-//       const response = await axios.get(
-//         `https://jsonplaceholder.typicode.com/users`
-//       );
-//       const users = response.data;
-
-//       dispatch(fetchUsersSuccess({ bingo: getState() }));
-//     } catch (error) {
-//       dispatch(fetchUsersFailure(error.message));
-//     }
-//   };
-// });
-
 // generates action types which have an extra property - fulfilled, pending, rejected
 const fetchUsers = createAsyncThunk("user/fetchUsers", () =>
   axios
