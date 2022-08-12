@@ -1,0 +1,23 @@
+{
+  "name": "reduxtoolkit-demo-codevolution",
+  "version": "1.0.0",
+  "description": "Redux Toolkit learning project for the Codevolution Redux playlist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exemplar-codes/reduxtoolkit-demo-codevolution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exemplar-codes/reduxtoolkit-demo-codevolution/issues"
+  },
+  "homepage": "https://github.com/exemplar-codes/reduxtoolkit-demo-codevolution#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.8.4"
+  }
+}
