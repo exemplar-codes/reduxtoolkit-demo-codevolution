@@ -37,3 +37,10 @@ const userSlice = createSlice({
 module.exports = userSlice.reducer;
 module.exports.userActions = userSlice.actions;
 module.exports.fetchUsers = fetchUsers;
+
+// 1. all async ops use promises, so create a promise based async construct
+// 2. we also need to have action creators, which are a must in RTK
+// so we'll create an action creator that works with the Thubk middleware internally
+// and
+// 3.  we'll specify the reducer part as an extra Reducer in the slice - with 3 actions - fullfilled, rejected, pending. All 3 are directly attached to the action creator function, since functions are objects.
+// Note: the action creator is outside of actions
